@@ -1,0 +1,508 @@
+{
+  "searchContent": [
+    {
+      "searchTitle": "女装",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList":[
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-3.webp",
+              "cShopDire": "T恤"
+            },
+            {
+              "cShopImg": "./images/search-4.webp",
+              "cShopDire": "连衣裙"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-3.webp",
+              "cShopDire": "T恤"
+            },
+            {
+              "cShopImg": "./images/search-4.webp",
+              "cShopDire": "连衣裙"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-3.webp",
+              "cShopDire": "T恤"
+            },
+            {
+              "cShopImg": "./images/search-4.webp",
+              "cShopDire": "连衣裙"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "searchTitle": "鞋包",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-2-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2-2.webp",
+              "cShopDire": "人气热卖"
+            },
+            {
+              "cShopImg": "./images/search-2-3.webp",
+              "cShopDire": "女鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-4.webp",
+              "cShopDire": "男鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-2.webp",
+              "cShopDire": "人气热卖"
+            },
+            {
+              "cShopImg": "./images/search-2-3.webp",
+              "cShopDire": "女鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-4.webp",
+              "cShopDire": "男鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-2.webp",
+              "cShopDire": "人气热卖"
+            },
+            {
+              "cShopImg": "./images/search-2-3.webp",
+              "cShopDire": "女鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-4.webp",
+              "cShopDire": "男鞋"
+            }
+          ,
+            {
+              "cShopImg": "./images/search-2-3.webp",
+              "cShopDire": "女鞋"
+            },
+            {
+              "cShopImg": "./images/search-2-4.webp",
+              "cShopDire": "男鞋"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "母婴",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "男装",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "内衣",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "食品",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cImg":"./images/search-1.webp",
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "百货",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "美妆",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "手机",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "家电",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "家纺",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "电脑",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "充值",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "水果",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "运动",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "汽车",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "海淘",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "健康",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "searchTitle": "品牌",
+      "iconfont":"&#xe667",
+      "titImg":"./images/search-1.webp",
+
+      "searchContentList": [
+        {
+          "cShopImgs":[
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            },
+            {
+              "cShopImg": "./images/search-2.webp",
+              "cShopDire": "夏热卖"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "num": 0
+}
