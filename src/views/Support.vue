@@ -17,7 +17,6 @@
     export default {
         name: "Support",
         components:{
-            "pdd-footer-bar":footerBar,
             "pdd-support-content":supportContent,
             "pdd-support-noMore":supportSearch,
         },

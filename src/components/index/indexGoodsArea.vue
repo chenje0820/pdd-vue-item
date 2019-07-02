@@ -1,6 +1,6 @@
 <template>
     <div class="goods-area">
-        <router-link v-for="(item,index) in indexGoodsArea" :key ="index" to = "/detail">
+        <router-link v-for="(item,index) in indexGoodsArea" :key ="index" to="/detail">
             <div class="goods-list">
                 <div class="goods-pic"><img :src="item.indexGoodsList[0].goodsImg" alt=""></div>
                 <div class="goods-detail">
@@ -23,16 +23,14 @@
                 </div>
             </div>
         </router-link>
-<!--        <a href="./detail" v-for="(item,index) in indexGoodsArea" :key ="index">-->
-
-<!--        </a>-->
     </div>
 </template>
 
 <script>
     export default {
         name: "indexGoodsArea",
-        props:["indexGoodsArea"]
+        props:["indexGoodsArea"],
+
     }
 </script>
 

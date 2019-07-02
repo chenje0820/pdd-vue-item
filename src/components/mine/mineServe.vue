@@ -1,7 +1,10 @@
 <template>
     <ul class="flex">
-        <li v-for="item in serverIcon" :key = 'item.id'>
-            <span v-html="item.iconfont" class="iconfont"></span>
+        <li
+                v-for="item in serverIcon"
+                :key = 'item.id'
+        >
+            <span v-html="item.iconfont" class="iconfont" :class="item.Cla"  ></span>
             <p>{{item.title}}</p>
         </li>
     </ul>
@@ -9,74 +12,10 @@
 <script>
     export default {
         name: "mineServe",
+        props:["serverIcon"],
         data(){
             return{
-                serverIcon:[
-                    {
-                        iconfont:'&#xe636',
-                        title:'待付款'
-                    },
-                    {
-                        iconfont:'&#xe636',
-                        title:'待分享'
-                    },
-                    {
-                        iconfont:'&#xe636',
-                        title:'待发货'
-                    },
-                    {
-                        iconfont:'&#xe636',
-                        title:'待收货'
-                    },
-                    {
-                        iconfont:'&#xe636',
-                        title:'待评价'
-                    },
-                ],
-                serverIcon1:[
-                    {
-                        iconfont:'&#xe613',
-                        title:'待付款'
-                    },
-                    {
-                        iconfont:'&#xe613',
-                        title:'待分享'
-                    },
-                    {
-                        iconfont:'&#xe613',
-                        title:'待发货'
-                    },
-                    {
-                        iconfont:'&#xe613',
-                        title:'待收货'
-                    },
-                    {
-                        iconfont:'&#xe613',
-                        title:'待评价'
-                    },
-                ],
-                serverIcon1:[
-                    {
-                        iconfont:'&#xe603',
-                        title:'待付款'
-                    },
-                    {
-                        iconfont:'&#xe603',
-                        title:'待分享'
-                    },
-                    {
-                        iconfont:'&#xe603',
-                        title:'待发货'
-                    },
-                    {
-                        iconfont:'&#xe603',
-                        title:'待收货'
-                    },
-                    {
-                        iconfont:'&#xe603',
-                        title:'待评价'
-                    },
-                ]
+
             }
         }
     }
@@ -100,5 +39,14 @@
         color:#8c8c8c;
     }
 
+    .flex .Satic{
+        color:#666!important;
+    }
+    .flex .Red{
+        color:#e02e24!important;
+    }
+    .flex .Orange{
+        color:orange!important;
+    }
 
 </style>

@@ -10,16 +10,13 @@
 </template>
 
 <script>
-    import footerBar from '../components/common/footerBar'
     import searchHeader from '../components/search/searchHeader'
     import searchContent from '../components/search/searchContent'
-
     export default {
         name: "Support",
         components:{
-            "pdd-footer-bar":footerBar,
-            'pdd-search-header':searchHeader,
-            'pdd-search-content':searchContent
+            'pdd-search-content':searchContent,
+            'pdd-search-header':searchHeader
         },
         created(){
             this.$http.get("data/search.json").then((data)=>{

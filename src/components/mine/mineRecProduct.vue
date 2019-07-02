@@ -1,6 +1,6 @@
 <template>
     <ul class="recommand-products clearfix">
-    <li class="products-item clearfix" v-for="(item,index) in indexGoodsArea" :key="index">
+        <li class="products-item clearfix" v-for="(item,index) in indexGoodsArea" :key="index">
             <a href="/detail">
                 <div class="product-photo"><img :src="item.indexGoodsList[0].goodsImg" alt=""></div>
                 <ul class="products-item-direc">
@@ -17,7 +17,7 @@
                         <div class="person-photo" v-if="!item.indexGoodsList[0].isPersonPhotos">
                             <img  v-for="(item3,index) in item.indexGoodsList[0].personPhotos" class="img-bottom" :src="item3" :key="index" alt="">
                         </div>
-                        <div class="find-btn" >
+                        <div class="find-btn">
                             <a href="http://mobile.yangkeduo.com/relative_goods.html?goods_id=6928912&sim_count=32&refer_page_name=recommended&refer_page_id=10272_1561618696480_DVQTD84krI&refer_page_sn=10272" >
                                 <span>发现</span>
                                 <span class="iconfont">&#xe667;</span>
@@ -107,8 +107,9 @@
         margin-right:-8px;
     }
     .find-btn{
-        height:0.24rem;
-        padding:0 0.03rem;
+        height:0.3rem;
+        line-height:0.24rem;
+        padding:0 0.03rem 0 0.05rem;
         border:1px solid #c6c6c6;
         border-right:none;
         margin-right:-0.10rem;

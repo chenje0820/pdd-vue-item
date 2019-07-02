@@ -55,24 +55,18 @@ html,body{
 .bgcolor{
     background-color:white;
 }
+/*显示省略号*/
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
-/*适配各种屏幕大小*/
-/*@media only screen and (max-width: 393px)*/
-/*html {*/
-/*    font-size: 104.8px;*/
-/*}*/
-/*@media only screen and (max-width: 400px)*/
-/*html {*/
-/*    font-size: 106.66667px;*/
-/*}*/
-/*@media only screen and (max-width: 412px)*/
-/*html {*/
-/*    font-size: 109.86667px;*/
-/*}*/
-/*@media only screen and (max-width: 414px)*/
-/*html {*/
-/*    font-size: 110.4px;*/
-/*}*/
-/*@media only screen and (max-width: 480px)*/
-/*html {*/
-/*    font-size: 128px;*/
+/*购物车中的选择按钮*/
+input[type="checkbox"]{-webkit-appearance:none;outline: none;}
+input.check{background:url(../images/choose-btn.png) no-repeat center left;background-size:20px 20px;width:20px;height:35px;}
+input.check:checked{background:url(../images/choose-btn2.png) no-repeat center left;background-size:20px 20px;}
+input.goodsCheck:checked{background:url(../images/choose-btn2.png) no-repeat center left;background-size:20px 20px;}
+input.check:checked{background:url(../images/choose-btn2.png) no-repeat center left;background-size:20px 20px;}
+.checked{background:url(../images/choose-btn2.png) no-repeat left center;background-size:20px 20px;width:20px;height:35px;}
+.unchecked{background:url(../images/choose-btn.png) no-repeat left center;background-size:20px 20px;width:20px;height:35px;}

@@ -5,7 +5,7 @@
                 active-class="active"
                 :to="item.path"
                 tag="li"
-                v-for="(item,index) in tabbar"
+                v-for="(item,index) in indexFooter"
                 @click.native="handleChange(index)"
             >
                 <span v-html="item.iconfont" class="iconfont" ></span>
@@ -19,38 +19,6 @@
     export default {
         name: "footerBar",
         props:["indexFooter"],
-        data(){
-            return{
-                tabbar:[
-                    {
-                        iconfont:"&#xe60e",
-                        title:'首页',
-                        path:'/index',
-                    },
-                    {
-                        iconfont:"&#xe60e",
-                        title:'推荐',
-                        path:'/support',
-                    },
-                    {
-                        iconfont:"&#xe608",
-                        title:'搜索',
-                        path:'/search',
-                    },
-                    {
-                        iconfont:"&#xe60e",
-                        title:'购物车',
-                        path:'/cart',
-                    },
-                    {
-                        iconfont:"&#xe60e",
-                        title:'个人中心',
-                        path:'/mine',
-                    }
-                ],
-                flag:0,
-            }
-        },
         methods:{
             handleChange(index){
                 this.flag = index;

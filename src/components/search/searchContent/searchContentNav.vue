@@ -42,8 +42,10 @@
         flex:1;
         overflow-y: auto;
     }
-    .content-main.active{
+    .content-main .active{
         color:red;
+        background-color:white;
+
     }
     .search-content-nav div{
         flex:1;
@@ -63,14 +65,17 @@
         left:0;
         top:0.14rem;
     }
-    .search-content-nav .active{
-        background-color:white;
-        color:#e3473e;
-    }
     .line{
         display: none;
     }
     .search-content-nav .active .line{
+        display: block;
+    }
+    /*.content-main .per-shop-nav:nth-child(1){*/
+    /*    background-color:white;*/
+    /*    color:#e3473e;*/
+    /*}*/
+    .content-main .per-shop-nav:nth-child(1) .line{
         display: block;
     }
 

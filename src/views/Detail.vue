@@ -102,6 +102,21 @@
 
             }
         },
+        created(){
+           // let that = this;
+           // this.$http.get("data/index.json").then(response=>{
+           //     let datas = response.data
+           //     console.log(datas)
+           //     if(datas&&datas.length>0){
+           //         that.data = datas[that.id];
+           //     }else{
+           //         console.log("not found datas")
+           //     }
+           // },response =>{
+           //     console.log("数据加载失败")
+           //  })
+           //  console.log(this.id)
+        },
         mounted() {
             this.__hiddlePage()
             this.__openChoose()

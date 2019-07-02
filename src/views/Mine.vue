@@ -15,67 +15,16 @@
                 </div>
                 <div class="my-order-server">
                     <!--物流服务项-->
-                    <pdd-mine-serve/>
+                    <pdd-mine-serve :serverIcon="serverIcon1"/>
                 </div>
             </div>
             <!--prat2-->
             <div class="serve-list1 bgcolor">
-                <ul class="flex">
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-
-                </ul>
+                <pdd-mine-serve :serverIcon="serverIcon2"/>
             </div>
             <!--part3-->
             <div class="serve-list1 bgcolor">
-                <ul class="flex">
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                    <li>
-                        <span class="iconfont icon-xiaoxi"></span>
-                        <p>代付款</p>
-                    </li>
-                </ul>
+                <pdd-mine-serve :serverIcon="serverIcon3"/>
             </div>
             <!--精选推荐-->
             <div class="select-recommand bgcolor">
@@ -83,22 +32,40 @@
                     <span class="iconfont icon-xiaoxi"></span>
                     <span>精选推荐</span>
                 </div>
-                    <pdd-mine-rec-product/>
+                <pdd-mine-rec-product :indexGoodsArea="indexGoodsArea"/>
             </div>
         </div>
     </div>
       </template>
     <script>
-    import footerBar from "../components/common/footerBar"
     import mineServe from '../components/mine/mineServe'
     import mineRecProduct from '../components/mine/mineRecProduct'
     export default {
     name: "mine",
     components: {
-        "pdd-footer-bar":footerBar,
         "pdd-mine-serve":mineServe,
         'pdd-mine-rec-product':mineRecProduct,
         },
+        created(){
+            this.$http.get("data/mine.json").then((data)=>{
+                data= data.data
+                this.serverIcon1 = data.serverIcon1,
+                this.serverIcon2 = data.serverIcon2,
+                this.serverIcon3 = data.serverIcon3,
+                this.indexGoodsArea =data.indexGoodsArea
+                console.log(this.indexGoodsArea)
+            }).catch((error)=>{
+                console.log(error)
+            })
+        },
+        data(){
+            return{
+                "serverIcon1":[],
+                "serverIcon2":[],
+                "serverIcon3":[],
+                "indexGoodsArea":[]
+            }
+        }
     }
     </script>
 
@@ -180,6 +147,5 @@
       .select-recommand-tit span{
           margin-right:0.1rem;
       }
-
 
 </style>

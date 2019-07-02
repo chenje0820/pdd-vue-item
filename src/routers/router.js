@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from './views/Index.vue'
-import Support from './views/Support.vue'
-import Search from './views/Search.vue'
-import Mine from './views/Mine.vue'
-import Detail from './views/Detail.vue'
-import Regis from './views/Regis.vue'
-import Login from './views/Login.vue'
-import Cart from './views/Cart.vue'
+import Index from '../views/Index.vue'
+import Support from '../views/Support.vue'
+import Search from '../views/Search.vue'
+import Mine from '../views/Mine.vue'
+import Detail from '../views/Detail.vue'
+import Regis from '../views/Regis.vue'
+import Login from '../views/Login.vue'
+import Cart from '../views/Cart.vue'
 //
 Vue.use(Router)
 

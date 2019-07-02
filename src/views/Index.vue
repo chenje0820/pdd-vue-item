@@ -35,12 +35,10 @@ import indexAction from "../components/index/indexAction"
 import indexNew from "../components/index/indexNew"
 import indexGoodsArea from "../components/index/indexGoodsArea"
 import indexGrandsArea from "../components/index/indexGrandsArea"
-
 import indexSearch from "../components/index/indexSearch"
 import footerBar from "../components/common/footerBar"
 import comeTop from "../components/common/comeTop"
 import openApp from "../components/common/openApp"
-
 export default {
   name: 'index',
   components: {
@@ -55,18 +53,16 @@ export default {
       "pdd-come-top":comeTop,
       'pdd-open-app':openApp,
   },
-    mounted() {
+    created() {
         this.$http.get('data/index.json').then((data)=>{
             data= data.data;
-            console.log(data)
+            // console.log(data)
             this.indexHeaderNav = data.indexHeaderNav;
             this.indexHeaderBanner = data.indexHeaderBanner;
             this.indexActionItem = data.indexActionItem;
             this.indexNew = data.indexNew;
             this.indexGoodsArea = data.indexGoodsArea;
             this.indexGrandsArea = data.indexGrandsArea[0];
-            this.indexFooter = data.indexFooter;
-            console.log(this.indexGrandsArea)
         }).catch((error)=>{
             console.log(error)
         })
@@ -79,7 +75,6 @@ export default {
           indexNew:[],
           indexGoodsArea:[],
           indexGrandsArea:[],
-          indexFooter:[]
       }
     },
 }
