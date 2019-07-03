@@ -10,7 +10,8 @@
                     :class="{active:index == num}"
                     @click ="tab(index)"
             >
-                <span>{{item.searchTitle}}</span><span class="line"></span></div>
+                <a :href="'#'+item.idName"><span>{{item.searchTitle}}</span><span class="line"></span></a>
+            </div>
         </div>
     </section>
 </template>

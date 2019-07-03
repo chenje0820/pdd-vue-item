@@ -2,7 +2,7 @@
     <div>
         <div class="shop-command">
             <div class="command-tit">
-                <div>商品评价(<span>826</span>)</div>
+                <div>商品评价(<span>{{data.detailCommand.commandNums}}</span>)</div>
                 <div class="command-tit-right">
                     <span>查看全部</span>
                     <span class="iconfont icon-youjiantou"></span>
@@ -10,57 +10,52 @@
             </div>
             <div class="command-content">
                 <div class="coommand-tips">
-                    <span>质量很好(236)</span>
-                    <span>做工很好(97)</span>
-                    <span>客服态度很好(91)</span>
+                    <span
+                            v-for="(t,index) in data.detailCommand.commandTips"
+                            :key = "index"
+                    >{{t}}</span>
                 </div>
-                <div class="person-commmand">
+                <div class="person-commmand"
+                     v-for="(l,index) in  data.detailCommand.commandList"
+                     :key = "index"
+                >
                     <div class="command-person-photo">
-                        <span><img src="https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x" alt=""></span>
-                        <span>祺^O^祺</span>
+                        <span><img :src="l.pPhoto" alt=""></span>
+                        <span>{{l.pName}}</span>
                     </div>
-                    <div class="command-info">鞋子已经收到了，价格很便宜，购买的很划算，颜色也很喜欢， 下次介绍朋友过来购买，</div>
+                    <div class="command-info">{{l.pCon}}</div>
                 </div>
-                <div class="person-commmand">
-                    <div class="command-person-photo">
-                        <span><img src="https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x" alt=""></span>
-                        <span>祺^O^祺</span>
-                    </div>
-                    <div class="command-info">鞋子已经收到了，价格很便宜，购买的很划算，颜色也很喜欢， 下次介绍朋友过来购买，</div>
-                </div>
+
             </div>
         </div>
         <div class="problem-resolve">
             <div class="problem-resolve-tit">
-                <div>卖家客服答疑(10)</div>
+                <div>{{data.detailProblems.problemTitle}}</div>
                 <div class="resolve-tit-right">
                     <span>查看全部</span>
                     <span class="iconfont icon-youjiantou"></span>
                 </div>
             </div>
             <div class="problem-content">
-                <div class="problem-list">
+                <div class="problem-list"
+                     v-for="(p,index) in data.detailProblems.problemsList"
+                     :key = "index"
+                >
                     <div class="problem-list-left">
-                        <span><img src="https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x" alt=""></span>
-                        <span>什么是脚踏？</span>
+                        <span><img :src="p.pPhoto" alt=""></span>
+                        <span>{{p.problem}}</span>
                     </div>
-                    <div class="problem-list-right">2人同问</div>
-                </div>
-                <div class="problem-list">
-                    <div class="problem-list-left">
-                        <span><img src="https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x" alt=""></span>
-                        <span>什么是脚踏？</span>
-                    </div>
-                    <div class="problem-list-right">2人同问</div>
+                    <div class="problem-list-right">{{p.askNum}}</div>
                 </div>
             </div>
         </div>
     </div>
 
 </template>
-<script>
+ <script>
     export default {
-        name: "detailCommand"
+        name: "detailCommand",
+        props:["data"]
     }
 </script>
 

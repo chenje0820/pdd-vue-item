@@ -1,35 +1,25 @@
 <template>
     <div class="spell-order">
         <div class="tit-tip spell-order-tit">
-            <div class="order-tit-left">3人在拼单，可直接参与</div>
+            <div class="order-tit-left">{{data.detailSpellCase.dTitle}}</div>
             <div class="order-tit-right">
                 <span>查看更多</span>
                 <span class="iconfont icon-youjiantou"></span>
             </div>
         </div>
         <div class="spell-banner">
-            <div class="order-list-info flex">
+            <div class="order-list-info flex"
+                v-for="(item,index) in data.detailSpellCase.dSpellInfo"
+                 :key = "index"
+            >
                 <div class="list-info-left flex">
-                    <span><img src="//t20img.yangkeduo.com/a/a9db587c03d270b17119b0b564be691b3a7c408b-1561099388?imageMogr2/thumbnail/100x" alt=""></span>
-                    <span>冷月长空</span>
+                    <span><img :src="item.dPersonPhoto" alt=""></span>
+                    <span>{{item.dPersonName}}</span>
                 </div>
                 <div class="list-info-right flex">
                     <div class="last-time">
-                        <div class="has-person-num">还差<span class="person-num">1人</span>拼成</div>
-                        <div class="end-time">剩余<span>倒计时</span></div>
-                    </div>
-                    <div class="make-order">去拼单</div>
-                </div>
-            </div>
-            <div class="order-list-info flex">
-                <div class="list-info-left flex">
-                    <span><img src="//t20img.yangkeduo.com/a/a9db587c03d270b17119b0b564be691b3a7c408b-1561099388?imageMogr2/thumbnail/100x" alt=""></span>
-                    <span>冷月长空</span>
-                </div>
-                <div class="list-info-right flex">
-                    <div class="last-time">
-                        <div class="has-person-num">还差<span class="person-num">1人</span>拼成</div>
-                        <div class="end-time">剩余<span>倒计时</span></div>
+                        <div class="has-person-num">还差<span class="person-num">{{data.needNum}}</span>拼成</div>
+                        <div class="end-time">剩余<span>13</span>:<span>12</span>:<span>11</span></div>
                     </div>
                     <div class="make-order">去拼单</div>
                 </div>
@@ -42,6 +32,7 @@
     import 'swiper/dist/css/swiper.css'
     export default {
         name: "detailSpell",
+        props:["data"],
         mounted() {
             this.__initSwiper()
         },

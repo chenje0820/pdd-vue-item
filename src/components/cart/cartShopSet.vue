@@ -12,7 +12,10 @@
         </div>
         <div>
             合计：<span class="total-money sign">{{data|counter}}</span>
-            <span class="set-btn">结算(<span>{{data|counter}}</span>)</span>
+            <router-link
+                    class="set-btn"
+                    to="/regis"
+            >结算(<span>{{data|counter}}</span>)</router-link>
         </div>
     </div>
 </template>

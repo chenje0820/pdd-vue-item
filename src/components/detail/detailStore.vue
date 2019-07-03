@@ -2,12 +2,12 @@
     <div class="store-info">
         <div class="store-sign">
             <div class="store-sign-left flex">
-                <div class="store-logo"><img src="../../../public/images/store-logo.jpg" alt=""></div>
+                <div class="store-logo"><img :src="data.detailStore.dStoreLogo" alt=""></div>
                 <div>
-                    <div class="store-name"><span>杰洛克家具旗舰店</span><span class="guan-fang">官方</span></div>
+                    <div class="store-name"><span>{{data.detailStore.dStoreName}}</span><span class="guan-fang">官方</span></div>
                     <div class="store-shop-name flex">
-                        <div>商品数量:<span>74</span></div>
-                        <div>已拼:<span>2.5万件</span></div>
+                        <div>商品数量:<span>{{data.detailStore.dStoreShopNums}}</span></div>
+                        <div>已拼:<span>{{data.detailStore.dStoreSpellNums}}</span></div>
                     </div>
                 </div>
             </div>
@@ -19,75 +19,21 @@
             <div><span>物流服务</span><span class="h">高</span></div>
         </div>
         <div class="store-shoppings">
-            <div class="store-shop-items">
+            <div class="store-shop-items"
+                 v-for="(d,index) in data.detailStore.dStoreShopList"
+                 :key = "index"
+            >
                 <a href="#">
                     <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
+                        <img :src="d.img" alt="">
+                        <div class="img-cover"></div>
                     </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
+                    <div class="shop-dire">
+                        <p class="store-shop-dire">{{d.lDire}}</p>
+                    </div>
                     <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
-                    </div>
-                </a>
-            </div>
-            <div class="store-shop-items">
-                <a href="#">
-                    <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
-                    </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
-                    <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
-                    </div>
-                </a>
-            </div>
-            <div class="store-shop-items">
-                <a href="#">
-                    <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
-                    </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
-                    <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
-                    </div>
-                </a>
-            </div>
-            <div class="store-shop-items">
-                <a href="#">
-                    <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
-                    </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
-                    <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
-                    </div>
-                </a>
-            </div>
-            <div class="store-shop-items">
-                <a href="#">
-                    <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
-                    </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
-                    <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
-                    </div>
-                </a>
-            </div>
-            <div class="store-shop-items">
-                <a href="#">
-                    <div class="per-shop-img">
-                        <img src="//omsproductionimg.yangkeduo.com/images/2017-09-18/f1538c34542efe70d317a339766610bb.jpeg" alt="">
-                    </div>
-                    <p class="store-shop-dire">中式实木电视柜伸</p>
-                    <div class="store-shop-price-num flex">
-                        <span class="store-shop-price"><span>￥</span>1079.1</span>
-                        <span class="has-spell-num">已拼526件</span>
+                        <span class="store-shop-price"><span>￥</span>{{d.lPrice}}</span>
+                        <span class="has-spell-num">{{d.lSpellNums}}</span>
                     </div>
                 </a>
             </div>
@@ -96,7 +42,9 @@
 </template>
 <script>
     export default {
-        name: "detailStore"
+        name: "detailStore",
+        props:["data"]
+
     }
 </script>
 <style scoped>
@@ -161,9 +109,24 @@
         width:1.11rem;
         margin:0.1rem 0.1rem 0 0;
     }
+    .per-shop-img{
+        position:relative;
+    }
     .per-shop-img img{
         width:1.11rem;
         height:1.11rem;
+    }
+    .img-cover{
+        position:absolute;
+        left:0;
+        top:0;
+        z-index: 10;
+        width:1.11rem;
+        height:1.11rem;
+        background-color:rgba(0,0,0,.04);
+    }
+    .shop-dire{
+        padding:0 0.05rem;
     }
     .store-shop-dire{
         line-height:0.25rem;
@@ -177,6 +140,7 @@
         color:#d70000;
         font-size:0.1rem;
         font-weight:600;
+        padding:0 0.05rem;
         justify-content: space-between;
     }
     .has-spell-num{

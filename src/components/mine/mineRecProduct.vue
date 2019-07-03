@@ -1,28 +1,31 @@
 <template>
     <ul class="recommand-products clearfix">
-        <li class="products-item clearfix" v-for="(item,index) in indexGoodsArea" :key="index">
+        <li class="products-item clearfix"
+            v-for="(item,index) in indexGoodsArea"
+            :key="index"
+        >
             <a href="/detail">
-                <div class="product-photo"><img :src="item.indexGoodsList[0].goodsImg" alt=""></div>
+                <div class="product-photo"><img :src="item.goodsImg" alt=""></div>
                 <ul class="products-item-direc">
-                    <li>{{item.indexGoodsList[0].goodsDire}}</li>
+                    <li>{{item.goodsDire}}</li>
                     <li class="goods-tips">
-                        <span v-for="(u,index) in item.indexGoodsList[0].goodsTips" :key="index">{{u}}</span>
+                        <span v-for="(u,index) in item.goodsTips" :key="index">{{u}}</span>
                     </li>
                     <li>
                         <div class="goods-price-left">
                             <span class="price-sign">￥</span>
-                            <span class="goods-price">{{item.indexGoodsList[0].goodsPrice}}</span>
-                            <span class="goods-num">{{item.indexGoodsList[0].goodsNum}}</span>
+                            <span class="goods-price">{{item.goodsPrice}}</span>
+                            <span class="goods-num">{{item.goodsNum}}</span>
                         </div>
-                        <div class="person-photo" v-if="!item.indexGoodsList[0].isPersonPhotos">
-                            <img  v-for="(item3,index) in item.indexGoodsList[0].personPhotos" class="img-bottom" :src="item3" :key="index" alt="">
+                        <div class="person-photo" v-if="item.isPersonPhotos">
+                            <img  v-for="(item3,index) in item.personPhotos" class="img-bottom" :src="item3" :key="index" alt="">
                         </div>
-                        <div class="find-btn">
-                            <a href="http://mobile.yangkeduo.com/relative_goods.html?goods_id=6928912&sim_count=32&refer_page_name=recommended&refer_page_id=10272_1561618696480_DVQTD84krI&refer_page_sn=10272" >
-                                <span>发现</span>
-                                <span class="iconfont">&#xe667;</span>
-                            </a>
-                        </div>
+<!--                        <div class="find-btn">-->
+<!--                            <a href="http://mobile.yangkeduo.com/relative_goods.html?goods_id=6928912&sim_count=32&refer_page_name=recommended&refer_page_id=10272_1561618696480_DVQTD84krI&refer_page_sn=10272" >-->
+<!--                                <span>发现</span>-->
+<!--                                <span class="iconfont">&#xe667;</span>-->
+<!--                            </a>-->
+<!--                        </div>-->
                     </li>
                 </ul>
             </a>

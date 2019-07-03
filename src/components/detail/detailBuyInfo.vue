@@ -2,38 +2,36 @@
     <div class="detail-buy-info">
         <div class="shop-price">
             <div class="shop-price-left">
-                <div class="price-dire"><span class="now-price sign">1249.2</span><span class="recover-price">即将恢复1388元</span></div>
-                <div>已拼3732件</div>
+                <div class="price-dire"><span class="now-price sign">{{data.goodsPrice}}</span><span class="recover-price">即将恢复1388元</span></div>
+                <div>{{data.detailGoodsNum}}</div>
             </div>
             <div class="grands-spec-buy"><p>品牌特卖</p><span class="trangle"></span></div>
         </div>
         <ul class="detail-dire">
-            <li class="support-tip">支持分期，低至111.9元/期</li>
+            <li class="support-tip"></li>
             <li class="shop-dire-txt">
                 <span>
                     <img src="//t00img.yangkeduo.com/goods/images/2018-12-29/e01ec845d67c3717fd0581da8dbf86bd.png?imageMogr2/quality/70 " alt="">
                     <span class="shop-dire-txt-info">
-                        <span>杰洛克实木沙发冬夏两用小户型套装中式现代客厅整装储物组合家具</span>
-                        <span class="send-shop-install">送货入户并安装</span>
+                        <span>{{data.goodsDire}}</span>
+                        <span class="send-shop-install">{{data.detailShowTip}}</span>
                     </span>
                 </span>
             </li>
             <li class="shop-dire-txt take-quan">
                 <div>
-                    <span class="quan">领券</span>
-                    <span class="quan-list">满1000元减10元</span>
-                    <span class="quan-list">满2000元减20元</span>
+                    <span class="quan">{{data.detailGoodsAct[0].dTit}}</span>
+                    <span class="quan-list">{{data.detailGoodsAct[0].dTips}}</span>
                 </div>
                 <div><span class="iconfont icon-youjiantou"></span></div>
             </li>
             <li class="shop-dire-txt settlement-tip">
-                <div class="settlement-tip-info">
-                    <span >全场包邮</span>
-                    <span class="dot"></span>
-                    <span>7天退换</span>
-                    <span class="dot"></span>
-                    <span>假一赔十</span>
-                </div>
+                <ul class="settlement-tip-info">
+                    <span class="per-tip" v-for="u in data.detailHandle">
+                        <span >{{u}}</span>
+                        <span class="dot"></span>
+                    </span>
+                </ul>
                 <div><span class="iconfont icon-youjiantou"></span></div>
             </li>
         </ul>
@@ -43,7 +41,8 @@
 
 <script>
     export default {
-        name: "detailBuyInfo"
+        name: "detailBuyInfo",
+        props:['data']
     }
 </script>
 
@@ -152,6 +151,7 @@
     .quan{
         width:0.32rem;
         height:0.18rem;
+        line-height:0.18rem;
         background-color:#e02f25;
         color:#ffffff;
         padding:4px;
@@ -170,15 +170,17 @@
         padding:0.11rem 0;
     }
     .settlement-tip .dot{
+        display:inline-block;
         width:4px;
         height:4px;
         border-radius:50%;
-        margin:0 0.16rem;
+        margin:0.02rem 0.1rem;
         background-color:#757678;
     }
+    .settlement-tip .per-tip:last-child .dot{
+        display: none;
+    }
     .settlement-tip-info{
-        display:flex;
-        align-items: center;
         color:#757678;
     }
 </style>

@@ -127,155 +127,172 @@
   ],
   "indexGoodsArea": [
     {
-      "indexGoodsList":[
+      "goodsId":1,
+      "banner": [
+        "//t00img.yangkeduo.com/goods/images/2018-12-11/a7fe7370eb84325229b15eae2b6a81bd.jpeg?imageMogr2/strip%7CimageView2/2/w/1300/q/80",
+        "//t00img.yangkeduo.com/goods/images/2019-02-18/8a3a2f1b-7067-4ae8-9b4a-25c6fcf8cfbf.jpg?imageMogr2/strip%7CimageView2/2/w/1300/q/80",
+        "//t00img.yangkeduo.com/goods/images/2018-12-11/b92dcdf78723a7a3e84997d7700b46d3.jpeg?imageMogr2/strip%7CimageView2/2/w/1300/q/80",
+        "//t00img.yangkeduo.com/goods/images/2018-12-11/16dcdcf0b7184119abf02c5585497eb0.jpeg?imageMogr2/strip%7CimageView2/2/w/1300/q/80",
+        "//t00img.yangkeduo.com/goods/images/2018-12-11/ff5c3158df1a33e8f94cf463ac95151f.jpeg?imageMogr2/strip%7CimageView2/2/w/1300/q/80",
+        "//t00img.yangkeduo.com/goods/images/2018-12-11/ff5c3158df1a33e8f94cf463ac95151f.jpeg?imageMogr2/strip%7CimageView2/2/w/1300/q/80"
+      ],
+      "goodsImg": "//t00img.yangkeduo.com/goods/images/2018-12-11/a7fe7370eb84325229b15eae2b6a81bd.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"空气清新剂卫生间卧室持久留香室内熏香厕所除臭家用香薰精油香水",
+      "goodsTips":["极速退款","满20返1"],
+      "detailShowTip": "极速退款",
+      "goodsPrice": 4.14,
+      "sindleGoodsPrice": 35,
+      "goodsNum":"已拼1304件",
+      "detailGoodsNum":"已拼1356件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/c3fb08c6ec5dd76a4f8a6d3f2c1575fd27403335-1552449596?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/2d302a9c3a8ff170cebc3b8d77caf5d21b42ad90-1531542611?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp"],
+      "detailGoodsAct":[
         {
-          "goodsId":1,
-          "goodsImg": "//t00img.yangkeduo.com/goods/images/2018-12-11/a7fe7370eb84325229b15eae2b6a81bd.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"空气清新剂卫生间卧室持久留香室内熏香厕所除臭家用香薰精油香水",
-          "goodsTips":["极速退款","满20返1"],
-          "detailShowTip": ["极速退款"],
-          "goodsPrice": 4.14,
-          "goodsNum":"已拼1304件",
-          "detailGoodsNum":"已拼1356件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/c3fb08c6ec5dd76a4f8a6d3f2c1575fd27403335-1552449596?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/2d302a9c3a8ff170cebc3b8d77caf5d21b42ad90-1531542611?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp"],
-          "detailGoodsAct":[
+          "dTit":"返现",
+          "dTips":"店铺内消费满20返1元"
+        }
+      ],
+      "detailHandle":["全场包邮","7天退换","48小时发货","假一赔十"],
+      "detailCommand":{
+        "commandNums":282,
+        "commandTips":["质量很好(236)","做工很好(97)","客服态度很好(91)"],
+        "commandList":[
+          {
+            "pPhoto":"//t20img.yangkeduo.com/a/afdff24d4275b3c918fdb7bc0f629e984410f7c5-1541926571?imageMogr2/thumbnail/100x",
+            "pName":"婉婷一笑",
+            "pCon": "东西很好，我很在西瓜，这个价格麻烦这个，好划算，赞一个，是我喜欢的香味"
+          },
+          {
+            "pPhoto":"//t20img.yangkeduo.com/a/b789b16889b37ac4d07024532d13eedc4b543d71-1548366900?imageMogr2/thumbnail/100x",
+            "pName":"一介书生",
+            "pCon": "东西很好，我很在西瓜，这个价格麻烦这个，好划算，赞一个，是我喜欢的香味"
+          }
+        ]
+      },
+      "detailProblems": {
+        "problemTitle":"卖家客服答疑(10)",
+        "problemsList":[
+          {
+            "pPhoto":"https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x",
+            "problem":"质量怎么样",
+            "askNum":"2人同问"
+          },
+          {
+            "pPhoto":"https://t20img.yangkeduo.com/a/5b51b13f0a8ede5ea1913414c32fe89fca459271-1547624911?imageMogr2/thumbnail/100x",
+            "problem":"会过敏吗",
+            "askNum":"3人同问"
+          }
+        ]
+      },
+      "detailSpellCase":{
+          "dTitle":"5人在拼单，可直接参与",
+          "dSpellInfo": [
             {
-              "d-title":"返现",
-              "d-tips":"店铺内消费满20返1元"
+              "dPersonPhoto":"//t20img.yangkeduo.com/a/f20826f6d758403dda3502a745df7376362d54ed-1554701769?imageMogr2/thumbnail/100x",
+              "dPersonName":"联通客户经理",
+              "needNum":"1人"
+            },
+            {
+              "dPersonPhoto":"//t20img.yangkeduo.com/a/f20826f6d758403dda3502a745df7376362d54ed-1554701769?imageMogr2/thumbnail/100x",
+              "dPersonName":"联通客户经理",
+              "needNum":"2人"
             }
-          ],
-          "detailHandle":["全场包邮","7天退换","48小时发货","假一赔十"],
-          "detailSpellCase": [
+          ]
+        },
+      "detailStore": {
+          "dStoreLogo":"//t16img.yangkeduo.com/pdd_ims/f800808e78edc60ca48965c46ac55b2e.png?imageMogr2/strip%7CimageView2/2/w/80/q/80",
+          "dStoreName":"新逸风尚",
+          "dStoreShopNums":12,
+          "dStoreSpellNums":"10万件",
+          "dStoreShopList":[
             {
-              "dTitle":"5人在拼单，可直接参与",
-              "dSpellInfo": [
-                {
-                  "dPersonPhoto":"//t20img.yangkeduo.com/a/f20826f6d758403dda3502a745df7376362d54ed-1554701769?imageMogr2/thumbnail/100x",
-                  "dPersonName":"联通客户经理",
-                  "needNum":"1人"
-                }
-              ]
-            }
-          ],
-          "detailStore": [
+              "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "2.66",
+              "lSpellNums": "已拼7.5万件"
+            },
             {
-              "dStoreLogo":"//t16img.yangkeduo.com/pdd_ims/f800808e78edc60ca48965c46ac55b2e.png?imageMogr2/strip%7CimageView2/2/w/80/q/80",
-              "dStoreName":"新逸风尚",
-              "dStoreShopNums":12,
-              "dStoreSpellNums":"10万件",
-              "dStoreShopList":[
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "2.66",
-                  "lSpellNums": "已拼7.5万件"
-                },
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "8.8",
-                  "lSpellNums": "已拼7.5万件"
-                },
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "3.22",
-                  "lSpellNums": "已拼7.5万件"
-                },
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "3.25",
-                  "lSpellNums": "已拼7.5万件"
-                },
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "5.88",
-                  "lSpellNums": "已拼7.5万件"
-                },
-                {
-                  "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
-                  "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
-                  "lPrice": "2.51",
-                  "lSpellNums": "已拼7.5万件"
-                }
-              ]
+              "img":"//t00img.yangkeduo.com/goods/images/2018-09-11/0857f717f5f3a94b98cf8a6df45da601.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "8.8",
+              "lSpellNums": "已拼7.5万件"
+            },
+            {
+              "img":"//t00img.yangkeduo.com/goods/images/2019-05-20/ba46178ea4fc533033a926a0968c3fa6.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "3.22",
+              "lSpellNums": "已拼7.5万件"
+            },
+            {
+              "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "3.25",
+              "lSpellNums": "已拼7.5万件"
+            },
+            {
+              "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "5.88",
+              "lSpellNums": "已拼7.5万件"
+            },
+            {
+              "img":"//t00img.yangkeduo.com/goods/images/2019-01-08/63a95643905407ea4910e8225f5e92fd.jpeg",
+              "lDire": "【抖音同款】小白神器增白剂一擦白洗鞋清洁剂强力去污鞋油100ml",
+              "lPrice": "2.51",
+              "lSpellNums": "已拼7.5万件"
             }
           ]
         }
-      ]
     },
     {
-      "indexGoodsList":[
-        {
-          "goodsId":2,
-          "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-02-28/3d9fbc68-46fd-41eb-969f-13c08173b1e9.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"(2条装)夏季七分冰丝大码外穿光泽裤弹力薄款胖MM外穿打底裤女",
-          "goodsTips":["极速退款","满24返2"],
-          "goodsPrice": 13.9,
-          "goodsNum":"已拼6120件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/2de2d14469b7914ddf6dde887329a9c35f217e4f-1529814918?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/47736e6fba83a0bdd94b61ed9b197a6706808a72-1529244656?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
-        }
-      ]
+      "goodsId":2,
+      "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-02-28/3d9fbc68-46fd-41eb-969f-13c08173b1e9.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"(2条装)夏季七分冰丝大码外穿光泽裤弹力薄款胖MM外穿打底裤女",
+      "goodsTips":["极速退款","满24返2"],
+      "goodsPrice": 13.9,
+      "goodsNum":"已拼6120件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/2de2d14469b7914ddf6dde887329a9c35f217e4f-1529814918?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/47736e6fba83a0bdd94b61ed9b197a6706808a72-1529244656?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
     },
     {
-      "indexGoodsList":[
-        {
-          "goodsId":3,
-          "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-04-07/055dd62f0fa98b66cf462989899fd272.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"幼儿园试卷拼音数学大班学前班练习册全套幼小衔接测试卷一日一练",
-          "goodsTips":["本周儿童读物畅销前十"],
-          "goodsPrice": 5.5,
-          "goodsNum":"已拼4.2万件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/195b695fb7d6b48e5f35638f2a85bf0dc7007437-1546857936?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/a8bab34e858d37f8b3c5bc18793bfdbde432303e-1529243695?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
-        }
-      ]
+      "goodsId":3,
+      "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-04-07/055dd62f0fa98b66cf462989899fd272.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"幼儿园试卷拼音数学大班学前班练习册全套幼小衔接测试卷一日一练",
+      "goodsTips":["本周儿童读物畅销前十"],
+      "goodsPrice": 5.5,
+      "goodsNum":"已拼4.2万件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/195b695fb7d6b48e5f35638f2a85bf0dc7007437-1546857936?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/a8bab34e858d37f8b3c5bc18793bfdbde432303e-1529243695?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
     },
     {
-      "indexGoodsList":[
-        {
-          "goodsId":4,
-          "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-04-10/45e3e15c-bfae-4ce4-af7b-87ef43f1ead1.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"大卷家用批发保鲜膜食品级厨房食用美容院美发瘦腿瘦身多规格",
-          "goodsTips":["本周保鲜膜/袋畅销前十","退货包运费","满30返2"],
-          "goodsPrice":2.9,
-          "goodsNum":"已拼10万+件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/2d0b5b0e8cb9052fcfb548b5d1bc2ea1c9385315-1560606127?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/b5e9c4543592e837dc0ccdc7640d9591c41b14c2-1547364727?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
-        }
-      ]
+      "goodsId":4,
+      "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-04-10/45e3e15c-bfae-4ce4-af7b-87ef43f1ead1.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"大卷家用批发保鲜膜食品级厨房食用美容院美发瘦腿瘦身多规格",
+      "goodsTips":["本周保鲜膜/袋畅销前十","退货包运费","满30返2"],
+      "goodsPrice":2.9,
+      "goodsNum":"已拼10万+件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/2d0b5b0e8cb9052fcfb548b5d1bc2ea1c9385315-1560606127?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","//t20img.yangkeduo.com/a/b5e9c4543592e837dc0ccdc7640d9591c41b14c2-1547364727?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
     },
     {
-      "indexGoodsList":[
-        {
-          "goodsId":5,
-          "goodsImg": "//t00img.yangkeduo.com/openapi/images/2019-06-21/c4f0fadab119935e4b0d7b9d8c07df86.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"夏季儿童防蚊裤夏季薄款女童2019新款宝宝休闲男童灯笼长裤子",
-          "goodsTips":["极速退款"],
-          "goodsPrice": 7.95,
-          "goodsNum":"已拼89件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/c55e12c0c033ebe42b4d8488d18ea98fa317f663-1535721121?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp"]
-        }
-      ]
+      "goodsId":5,
+      "goodsImg": "//t00img.yangkeduo.com/openapi/images/2019-06-21/c4f0fadab119935e4b0d7b9d8c07df86.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"夏季儿童防蚊裤夏季薄款女童2019新款宝宝休闲男童灯笼长裤子",
+      "goodsTips":["极速退款"],
+      "goodsPrice": 7.95,
+      "goodsNum":"已拼89件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/c55e12c0c033ebe42b4d8488d18ea98fa317f663-1535721121?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp"]
     },
     {
-      "indexGoodsList":[
-        {
-          "goodsId":6,
-          "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-01-19/9f78a82c-f664-4b89-b6c5-d294283e9631.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
-          "goodsDire":"【修甲10件-26件套】指甲剪刀修眉剪刀指甲钳",
-          "goodsTips":["本周个人清洁工具畅销前十","极速退款"],
-          "goodsPrice": 2.68,
-          "goodsNum":"已拼10万+件",
-          "isPersonPhotos":"true",
-          "personPhotos":["//t20img.yangkeduo.com/a/ceb1868982be06654ec445eebeac415250672fcc-1558138636?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","src=\"//t21img.yangkeduo.com/a/fdd47f555788be68fbb3f306f80e0b81d1f1b0ff-1513151521?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
-        }
-      ]
+      "goodsId":6,
+      "goodsImg": "//t00img.yangkeduo.com/goods/images/2019-01-19/9f78a82c-f664-4b89-b6c5-d294283e9631.jpg?imageMogr2/sharpen/1%7CimageView2/2/w/312/q/70/format/webp",
+      "goodsDire":"【修甲10件-26件套】指甲剪刀修眉剪刀指甲钳",
+      "goodsTips":["本周个人清洁工具畅销前十","极速退款"],
+      "goodsPrice": 2.68,
+      "goodsNum":"已拼10万+件",
+      "isPersonPhotos":"true",
+      "personPhotos":["//t20img.yangkeduo.com/a/ceb1868982be06654ec445eebeac415250672fcc-1558138636?imageMogr2/sharpen/1%7CimageView2/2/w/1300/q/70/format/webp","src=\"//t21img.yangkeduo.com/a/fdd47f555788be68fbb3f306f80e0b81d1f1b0ff-1513151521?imageMogr2/sharpen/1%7CimageView2/2/w/37/q/70/format/webp"]
     }
   ],
   "indexGrandsArea": [

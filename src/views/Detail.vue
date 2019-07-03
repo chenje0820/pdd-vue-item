@@ -1,77 +1,75 @@
 <template>
     <div>
-        <div>
-            <div id="main">
-                <!--轮播图部分-->
-                <pdd-detail-bannner/>
-                <!--购买信息-->
-                <pdd-detail-buy-info/>
-                <!--拼单情况-->
-                <pdd-detail-spell-order/>
-                <!--评论区-->
-                <pdd-detail-command/>
-                <!--店铺详情-->
-                <pdd-detail-store/>
-                <!--商品的具体详情-->
-                <pdd-detail-info/>
-            </div>
-            <pdd-detail-footer/>
-            <!--选择商品类型-->
-            <div class="choose-shop-type">
-                <div class="shop-type-box">
-                    <div class="shop-type-header">
-                        <div class="shop-header-box clearfix">
-                            <div class="shop-imgs Left-u"><img src="//t00img.yangkeduo.com/goods/images/2019-05-21/9e1e3c6752a3ef81107bd6f3f16863de.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/300/q/70/format/webp" alt=""></div>
-                            <ul class="Left-u header-info">
-                                <li class="price-info flex">
-                                    <span>￥37.1-144</span>
-                                    <span class="iconfont icon-youjiantou close-btn"></span>
-                                </li>
-                                <li>备填信息</li>
-                                <li>请选择&nbsp;颜色&nbsp;尺寸</li>
-                            </ul>
-                        </div>
+        <div id="main">
+            <!--轮播图部分-->
+            <pdd-detail-bannner v-if= "data.banner" :data="data"/>
+            <!--购买信息-->
+            <pdd-detail-buy-info v-if="data.detailGoodsAct" :data ="data"/>
+            <!--拼单情况-->
+            <pdd-detail-spell-order v-if="data.detailSpellCase" :data="data"/>
+            <!--评论区-->
+            <pdd-detail-command v-if="data.detailCommand" :data="data"/>
+            <!--店铺详情-->
+            <pdd-detail-store v-if ="data.detailStore" :data="data"/>
+            <!--商品的具体详情-->
+            <pdd-detail-info :data="data"/>
+        </div>
+        <pdd-detail-footer :data="data"/>
+        <!--选择商品类型-->
+        <div class="choose-shop-type">
+            <div class="shop-type-box">
+                <div class="shop-type-header">
+                    <div class="shop-header-box clearfix">
+                        <div class="shop-imgs Left-u"><img src="//t00img.yangkeduo.com/goods/images/2019-05-21/9e1e3c6752a3ef81107bd6f3f16863de.jpeg?imageMogr2/sharpen/1%7CimageView2/2/w/300/q/70/format/webp" alt=""></div>
+                        <ul class="Left-u header-info">
+                            <li class="price-info flex">
+                                <span>￥37.1-144</span>
+                                <span class="iconfont icon-youjiantou close-btn"></span>
+                            </li>
+                            <li>备填信息</li>
+                            <li>请选择&nbsp;颜色&nbsp;尺寸</li>
+                        </ul>
                     </div>
-                    <div class="shop-mian-info">
-                        <div class="type-tips">
-                            <div class="type-tips-topic">颜色</div>
-                            <ul class="type-tips-list">
-                                <li>111111</li>
-                                <li>2222</li>
-                                <li>333333333</li>
-                                <li>444444</li>
-                                <li>555555555555</li>
-                                <li>66666</li>
-                                <li>77777777</li>
-                                <li>888888</li>
-                                <li>9999</li>
-                            </ul>
-                        </div>
-                        <div class="type-tips">
-                            <div class="type-tips-topic">尺寸</div>
-                            <ul class="type-tips-list">
-                                <li>111111</li>
-                                <li>2222</li>
-                                <li>333333333</li>
-                                <li>444444</li>
-                                <li>555555555555</li>
-                                <li>66666</li>
-                                <li>77777777</li>
-                                <li>888888</li>
-                                <li>9999</li>
-                            </ul>
-                        </div>
-                        <div class="type-tips num-tip flex">
-                            <div class="type-tips-topic">数量</div>
-                            <div class="change-num flex">
-                                <span>-</span>
-                                <input class="num-box" type="text" value="1">
-                                <span>+</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="make-sure">确定</div>
                 </div>
+                <div class="shop-mian-info">
+                    <div class="type-tips">
+                        <div class="type-tips-topic">颜色</div>
+                        <ul class="type-tips-list">
+                            <li>111111</li>
+                            <li>2222</li>
+                            <li>333333333</li>
+                            <li>444444</li>
+                            <li>555555555555</li>
+                            <li>66666</li>
+                            <li>77777777</li>
+                            <li>888888</li>
+                            <li>9999</li>
+                        </ul>
+                    </div>
+                    <div class="type-tips">
+                        <div class="type-tips-topic">尺寸</div>
+                        <ul class="type-tips-list">
+                            <li>111111</li>
+                            <li>2222</li>
+                            <li>333333333</li>
+                            <li>444444</li>
+                            <li>555555555555</li>
+                            <li>66666</li>
+                            <li>77777777</li>
+                            <li>888888</li>
+                            <li>9999</li>
+                        </ul>
+                    </div>
+                    <div class="type-tips num-tip flex">
+                        <div class="type-tips-topic">数量</div>
+                        <div class="change-num flex">
+                            <span>-</span>
+                            <input class="num-box" type="text" value="1">
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="make-sure">确定</div>
             </div>
         </div>
     </div>
@@ -99,43 +97,32 @@
         },
         data(){
             return{
-
+                data:[]
             }
         },
         created(){
-           // let that = this;
-           // this.$http.get("data/index.json").then(response=>{
-           //     let datas = response.data
-           //     console.log(datas)
-           //     if(datas&&datas.length>0){
-           //         that.data = datas[that.id];
-           //     }else{
-           //         console.log("not found datas")
-           //     }
-           // },response =>{
-           //     console.log("数据加载失败")
-           //  })
-           //  console.log(this.id)
+            this.$http.get("data/index.json").then((data)=>{
+                this.data = data.data.indexGoodsArea[this.$route.query.id-1]
+            }).catch((error)=>{
+                console.log(error)
+            })
+
         },
+
         mounted() {
             this.__hiddlePage()
             this.__openChoose()
         },
+
         methods:{
             __hiddlePage(){
                 let closeBtn = document.querySelector(".close-btn")
                 closeBtn.onclick = function(){
                     document.querySelector(".choose-shop-type").style.display="none"
                 }
-                // $(".close-btn").click(
-                //     function () {
-                //        alert(1)
-                //     }
-                // )
             },
             __openChoose(){
                 let openBtn = document.querySelector(".detail-buy-btn")
-                console.log(openBtn.length)
                 document.querySelector(".choose-shop-type").style.display="none"
                 for(let i=0;i<openBtn.length;i++){
                     openBtn(i).onclick = function(){
@@ -148,6 +135,9 @@
 </script>
 
 <style scoped>
+    #main{
+        padding-top:0;
+    }
     .choose-shop-type{
         width:100%;
         /*max-width: 640px;*/

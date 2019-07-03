@@ -1,22 +1,26 @@
 <template>
     <div class="goods-area">
-        <router-link v-for="(item,index) in indexGoodsArea" :key ="index" to="/detail">
+        <router-link
+                v-for="(item,index) in indexGoodsArea"
+                :key ="index"
+                :to = "{name:'Detail',query:{id:item.goodsId}}"
+        >
             <div class="goods-list">
-                <div class="goods-pic"><img :src="item.indexGoodsList[0].goodsImg" alt=""></div>
+                <div class="goods-pic"><img :src="item.goodsImg" alt=""></div>
                 <div class="goods-detail">
-                    <div class="goods-dire">{{item.indexGoodsList[0].goodsDire}}</div>
+                    <div class="goods-dire">{{item.goodsDire}}</div>
                     <div>
                         <div class="goods-tips">
-                            <span v-for="t in item.indexGoodsList[0].goodsTips" >{{t}}</span>
+                            <span v-for="t in item.goodsTips" >{{t}}</span>
                         </div>
                         <div class="goods-price-persons">
                             <div class="goods-price-left">
                                 <span class="price-sign">￥</span>
-                                <span class="goods-price">{{item.indexGoodsList[0].goodsPrice}}</span>
-                                <span class="goods-num">{{item.indexGoodsList[0].goodsNum}}</span>
+                                <span class="goods-price">{{item.goodsPrice}}</span>
+                                <span class="goods-num">{{item.goodsNum}}</span>
                             </div>
                             <div class="person-photo">
-                                <img class="img-bottom" v-for = "u in item.indexGoodsList[0].personPhotos" :src="u" alt="">
+                                <img class="img-bottom" v-for = "u in item.personPhotos" :src="u" alt="">
                             </div>
                         </div>
                     </div>
@@ -30,6 +34,9 @@
     export default {
         name: "indexGoodsArea",
         props:["indexGoodsArea"],
+        methods:{
+
+        }
 
     }
 </script>

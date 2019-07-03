@@ -2,6 +2,7 @@
   "searchContent": [
     {
       "searchTitle": "女装",
+      "idName":"item1",
       "iconfont":"&#xe667",
       "titImg":"./images/search-1.webp",
       "searchContentList":[
@@ -51,6 +52,7 @@
     {
       "searchTitle": "鞋包",
       "iconfont":"&#xe667",
+      "idName":"item2",
       "titImg":"./images/search-2-1.webp",
       "searchContentList": [
         {
@@ -106,6 +108,7 @@
     },
     {
       "searchTitle": "母婴",
+      "idName":"item3",
       "iconfont":"&#xe667",
       "titImg":"./images/search-1.webp",
       "searchContentList": [
@@ -130,6 +133,8 @@
     {
       "searchTitle": "男装",
       "iconfont":"&#xe667",
+      "idName":"item4",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -153,6 +158,8 @@
     {
       "searchTitle": "内衣",
       "iconfont":"&#xe667",
+      "idName":"item5",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -175,6 +182,8 @@
     },
     {
       "searchTitle": "食品",
+      "idName":"item6",
+
       "iconfont":"&#xe667",
       "titImg":"./images/search-1.webp",
 
@@ -201,6 +210,8 @@
     {
       "searchTitle": "百货",
       "iconfont":"&#xe667",
+      "idName":"item7",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -224,6 +235,8 @@
     {
       "searchTitle": "美妆",
       "iconfont":"&#xe667",
+      "idName":"item8",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -247,6 +260,8 @@
     {
       "searchTitle": "手机",
       "iconfont":"&#xe667",
+      "idName":"item9",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -270,6 +285,8 @@
     {
       "searchTitle": "家电",
       "iconfont":"&#xe667",
+      "idName":"item10",
+
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [
@@ -294,6 +311,8 @@
     {
       "searchTitle": "家纺",
       "iconfont":"&#xe667",
+      "idName":"item11",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -317,6 +336,8 @@
     {
       "searchTitle": "电脑",
       "iconfont":"&#xe667",
+      "idName":"item12",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -340,6 +361,8 @@
     {
       "searchTitle": "充值",
       "iconfont":"&#xe667",
+      "idName":"item13",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -363,6 +386,8 @@
     {
       "searchTitle": "水果",
       "iconfont":"&#xe667",
+      "idName":"item14",
+
       "titImg":"./images/search-1.webp",
       "searchContentList": [
         {
@@ -386,6 +411,8 @@
     {
       "searchTitle": "运动",
       "iconfont":"&#xe667",
+      "idName":"item15",
+
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [
@@ -410,6 +437,8 @@
     {
       "searchTitle": "汽车",
       "iconfont":"&#xe667",
+      "idName":"item16",
+
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [
@@ -434,6 +463,8 @@
     {
       "searchTitle": "海淘",
       "iconfont":"&#xe667",
+      "idName":"item17",
+
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [
@@ -458,6 +489,8 @@
     {
       "searchTitle": "健康",
       "iconfont":"&#xe667",
+      "idName":"item18",
+
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [
@@ -482,6 +515,7 @@
     {
       "searchTitle": "品牌",
       "iconfont":"&#xe667",
+      "idName":"item19",
       "titImg":"./images/search-1.webp",
 
       "searchContentList": [

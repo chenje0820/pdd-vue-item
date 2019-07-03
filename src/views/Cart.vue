@@ -61,28 +61,42 @@
                    })
                })
             },
-            //店铺选中的时候，
+            //
             shopCheckAll(sid){
                 let isChecked = this.data.shops[sid].checked;
                 this.data.shops[sid].products.forEach((product,pid)=>{
                     product.checked = isChecked
                 })
-                this.data.checked = isChecked
+                for(let i=0;i<this.data.shops.length;i++){
+                    if(!this.data.shops[i].checked){
+                        this.data.checked = false;
+                        return
+                    }
+                    this.data.checked = true;
 
+                }
             },
 
-            //店铺选中状态跟随商品选中状态变化
+            //
             //有一个是false 全是false
             productSingleCheck(sid){
-                let isChecked = this.data.shops.every((shop,sid,arr)=>{
-                    let checked = shop.products.every((product,pid,arr)=>{
-                        return product.checked == true
-                    })
-                    shop.checked = checked
-                    return checked
-                })
-                this.data.checked = isChecked
+                for(let i=0;i<this.data.shops[sid].products.length;i++){
+                    if(!this.data.shops[sid].products[i].checked){
+                        this.data.shops[sid].checked = false;
+                        this.data.checked = false;
+                        return;
+                    }
+                }
+                this.data.shops[sid].checked = true;
+                for(let k=0;k<this.data.shops.length;k++){
+                    if(!this.data.shops[k].checked){
+                        this.data.checked = false;
+                        return;
+                    }
+                    this.data.checked = true;
+                }
             },
+
             addNum(sid,pid){
                 this.data.shops[sid].products[pid].num++
             },

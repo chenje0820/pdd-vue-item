@@ -13,11 +13,11 @@
             <div>客服</div>
         </div>
         <div class="btn-itm detail-buy-btn">
-            <div><span class="sign">2299</span></div>
+            <div><span class="sign">{{data.sindleGoodsPrice}}</span></div>
             <div>单独购买</div>
         </div>
         <div class="btn-itm detail-buy-btn send-buy">
-            <div><span class="sign">1249</span></div>
+            <div><span class="sign">{{data.goodsPrice}}</span></div>
             <div>发起拼单</div>
         </div>
     </footer>
@@ -26,6 +26,7 @@
 <script>
     export default {
         name: "detailFooter",
+        props:["data"],
         data(){
             return{
                 tabbar:[

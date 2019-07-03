@@ -1,6 +1,10 @@
 <template>
     <div>
-        <div class="content-info-list" v-for="(item,index) in searchContent" :key="index">
+        <div class="content-info-list"
+             v-for="(item,index) in searchContent"
+             :key="index"
+             :id="item.idName"
+        >
             <!--part1s-->
             <pdd-search-content-area-list-tit :searchContent ="item"/>
             <!--part2-->

@@ -53,7 +53,6 @@
                 this.serverIcon2 = data.serverIcon2,
                 this.serverIcon3 = data.serverIcon3,
                 this.indexGoodsArea =data.indexGoodsArea
-                console.log(this.indexGoodsArea)
             }).catch((error)=>{
                 console.log(error)
             })
